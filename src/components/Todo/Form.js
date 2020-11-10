@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import firebaseDB from '../utils/firebase'
+import firebaseDB from '../../utils/firebase'
 
 export default function Form() {
   

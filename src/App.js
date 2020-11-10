@@ -1,18 +1,20 @@
 import './App.css';
-import Form from './components/Form'
-import TodoList from './components/TodoList'
+import Form from './components/Cloth/Form'
 
 function App() {
 
   return (
     <div className="App">
-      Todo
-      {/* POST */}
+      Upload picture
       <Form />
 
-      TodoList
+      {/* Todo */}
+      {/* POST */}
+      {/* <Form /> */}
+
+      {/* TodoList */}
       {/* GET */}
-      <TodoList />
+      {/* <TodoList /> */}
     </div>
   );
 }

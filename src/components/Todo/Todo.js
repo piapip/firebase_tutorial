@@ -1,5 +1,5 @@
 import React from 'react'
-import firebaseDB from '../utils/firebase'
+import firebaseDB from '../../utils/firebase'
 // the todo in function Todo({ todo }) will stand for this.props
 export default function Todo({ todo }) {
 
