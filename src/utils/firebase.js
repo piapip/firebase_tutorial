@@ -12,5 +12,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 var firebaseDB = firebase.initializeApp(firebaseConfig);
+// firebase.analytics();
+firebase.analytics();
 
 export default firebaseDB;
